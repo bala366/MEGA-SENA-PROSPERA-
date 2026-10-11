@@ -1,0 +1,27 @@
+MEGA-SENA FALHAS V9 - PROJETO APK ANDROID
+
+O motor de calculo mega_falhas_v9.py foi copiado da V9 Windows SEM ALTERAR
+as funcoes load(), study() e search(). A funcao pdf() original permanece
+no arquivo para referencia, mas a interface Android cria o PDF usando
+PdfDocument nativo, mantendo laranja/azul/verde e 10 blocos.
+
+COMO GERAR APK NO GITHUB
+1. Acesse https://github.com/new
+2. Crie repositorio vazio, por exemplo MEGA-SENA-FALHAS-V9-APK.
+3. Envie os arquivos e pastas deste ZIP para a raiz do repositorio.
+4. Acesse Actions > Gerar APK Mega-Sena V9 > Run workflow.
+5. Ao terminar, baixe o artefato MEGA_SENA_FALHAS_V9_APK.
+6. Extraia o artefato e instale app-debug.apk no Android.
+
+ATENCAO
+- Esta e uma estrutura de build, ainda NAO validada por uma compilacao
+  Android real neste ambiente.
+- A analise completa de 50.063.860 combinacoes em Python no celular pode
+  levar MUITO tempo e consumir bastante bateria. Mantenha o app aberto.
+- O arquivo historico precisa ter numero do concurso e seis dezenas.
+- A regra de exatamente UMA repetida foi mantida da V9.
+- O programa nao pede permissao ampla de armazenamento: usa seletor de arquivos.
+- O APK gerado no workflow e DEBUG (para testes), nao uma versao Play Store.
+- Relatorios de auditoria ficam no armazenamento interno do app.
+
+ATUALIZACAO VISUAL: icone verde com trevo branco, nome Mega-Sena Campeao. Logica Python e workflow mantidos.
